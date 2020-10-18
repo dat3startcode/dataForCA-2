@@ -31,7 +31,7 @@ __After having executed this script, you should never write to the `CityInfo-tab
 A problem you probably will find with the Hobby table is how to ensure that we won't get the same hobby in many different versions (Fodbold, fodbold, fådbold,football, soccer etc.).
 One way to ensure that, is to only allow Hobbies selected from a list of approved hobbies.
 
-The script hobbyScript.sql is designed from a screen-scraped version of the data found on this Wikipeda-page and titles (name) are hereafter auto translated to danish (so be prepared for some "strange" hobbies)
+The script hobbyScript.sql is designed from a screen-scraped version of the data found on this [Wikipeda-page](https://en.wikipedia.org/wiki/List_of_hobbies) and titles (name) are hereafter auto translated to danish (so be prepared for some "strange" hobbies)
 
 You can use it if you set up your Hobby entity class to match the following:
 ```java
