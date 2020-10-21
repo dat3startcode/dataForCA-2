@@ -26,7 +26,7 @@ Either run the script your usual way, up against your database, or let JPA execu
 Note: this requires you to place the script under META-INF, (next to persistence.xml)
 
 __After having executed this script, you should never write to the `CityInfo-table`, only READ.__
-_(This is NOT something you have to enforce on the database, just realize that, once initialized, all data is here,  and they wont change_
+_(This is NOT something you have to enforce on the database, just realize that, once initialized, all data is here,  and they wont change)_
 
 ### Script for Hobbies
 A problem you probably will find with the Hobby table is how to ensure that we won't get the same hobby in many different versions (Fodbold, fodbold, fådbold,football, soccer etc.).
