@@ -1,6 +1,6 @@
 ## Data for CA-2
 
-In this repo you will find two scripts you can use to set up data for CA-2. The first one, _zipScript.sql_ you must use (unless you find a similar/better script). The second one (_hobbyScript.sql_) you can use if you like.
+In this repo you will find two scripts you can use to set up data for CA-2. The first one, _zipScript.sql_ you must use (unless you find a similar/better script). The second  (_hobbyScript.sql_) you can use if you like.
 
 ### Script for zip-codes
 
