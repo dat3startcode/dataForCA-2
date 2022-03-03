@@ -6,7 +6,7 @@ Then to read this into your java program you can use the following code example:
 ```java
 String jsonStr = "";
     try {
-        URL url = new URL(uRL_STRING);
+        URL url = new URL(urlString);
         HttpURLConnection con = (HttpURLConnection) url.openConnection();
         con.setRequestMethod("GET");
         con.setRequestProperty("Accept", "application/json");
